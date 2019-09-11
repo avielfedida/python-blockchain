@@ -1,0 +1,6 @@
+- Improved error handling, logging
+- Improved scalability
+- Use a database for the blockchain
+- Improve broadcasting with async communication, maybe sockets.
+- Automatic adjustment difficulty
+- Add merkle tree
