@@ -102,7 +102,7 @@ class Blockchain:
     def load_data(self):
         try:
             # Load saved blockchain
-            with open(f'blockchain{self.node_id}.txt', mode='r') as f:
+            with open(f'blockchain-{self.node_id}.txt', mode='r') as f:
                 file_content = f.readlines()
                 if len(file_content) > 0:
                     self.chain = json.loads(file_content[0][:-1])  # The [:-1] is to remove the \n
